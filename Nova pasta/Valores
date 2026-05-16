@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Felicidade é Brigadeiro</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            text-align: center;
+        }
+
+        h1 {
+            color: #8B4513;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 60%;
+            background-color: white;
+        }
+
+        th, td {
+            border: 1px solid #d2691e;
+            padding: 12px;
+        }
+
+        th {
+            background-color: #ffb6c1;
+        }
+
+        tr:hover {
+            background-color: #ffe4e1;
+        }
+
+        h2 {
+            color: #c71585;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍰 Felicidade é Brigadeiro</h1>
+
+    <h2>💖 Promoção Especial</h2>
+    <p><strong>1 brigadeiro:</strong> R$ 6,00</p>
+    <p><strong>3 brigadeiros:</strong> R$ 15,00</p>
+
+    <table>
+        <tr>
+            <th>Sabores</th>
+            <th>Preço Unitário</th>
+        </tr>
+
+        <tr>
+            <td>Frutas Vermelhas Berries</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Chocolate Amargo 70%</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Brûlée</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Romeu e Julieta</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Ninho com Nutella</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Brigadeiro Tradicional</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+        <tr>
+            <td>Morango com Nutella</td>
+            <td>R$ 6,00</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
