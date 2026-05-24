@@ -3,190 +3,261 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galeria de Fotos - Felicidade é brigadeiro</title>
+    <title>Felicidade é Brigadeiro - Doces Artesanais</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header> 
-            <ul class="nav-links">
-              <li><a href="#sobre">Sobre</a></li>
-              <li><a href="#galeria">Galeria de Fotos</a></li>
-              <li><a href="#contato">Contato</a></li>               
-            </ul>
+        <div class="header-container">
+            <div class="logo-header">
+                <a href="#" class="navbar-logo">
+                    <img src="./img/logo 2.png" alt="Felicidade é Brigadeiro Logo" class="brand-logo">
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#sobre">SOBRE</a></li>
+                    <li><a href="#galeria">GALERIA DE FOTOS</a></li>
+                    <li><a href="#contato">CONTATO</a></li>               
+                </ul>
+            </nav>
+            <a href="https://wa.me/5511987053193" target="_blank" class="btn-top-order">
+                <img src="./img/icon-whatsapp-white.png" alt="" class="wp-icon-small"> PEDIR AGORA
+            </a>
+        </div>
     </header>
 
     <main>
-        <section id="servicos">
-            <p>Oferecemos doces artesanais para festas, eventos e ocasiões especiais. Toda nossa produção é feita com ingredientes de qualidade premium.</p>
-        </section>
+        <section class="hero-section">
+    <div class="hero-overlay"></div> <div class="hero-container">
+        <div class="hero-text">
+            <h1>Feitos com amor,<br><span class="highlight-text">para adoçar momentos especiais!</span></h1>
+            <p class="hero-description">Oferecemos doces artesanais para festas, eventos e ocasiões especiais. Toda nossa produção é feita com ingredientes de qualidade premium.</p>
+            <a href="https://wa.me/5511987053193" target="_blank" class="btn-hero-order">
+                <svg class="whatsapp-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+                </svg>
+                 PEDIR AGORA
+            </a>
+        </div>
+    </div>
+</section>
 
-        <section id="galeria">
-            <div class="products">
-                <h2>Nossos Produtos em destaque</h2>
-                <div class="cards-container">
-                    <div class="card" data-name="Caramelo">
+        <section id="galeria" class="products-section">
+            <h2 class="section-title"><span class="heart-icon">♥</span> Nossos Produtos em destaque <span class="heart-icon">♥</span></h2>
+            
+            <div class="cards-container">
+                <div class="card" data-name="Caramelo">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.50.jpeg" alt="Caramelo">
-                        <h3>Caramelo</h3>
-                        <p>Delicioso doce de caramelo.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Caramelo ">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Doce de leite">
+                    <h3>Caramelo</h3>
+                    <p class="card-desc">Delicioso doce de caramelo.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Caramelo"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Doce de leite">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.51 (1).jpeg" alt="Doce de leite">
-                        <h3>Doce de leite</h3>
-                        <p>Um doce cremoso e saboroso.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Doce de leite">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Brigadeiro">
+                    <h3>Doce de leite</h3>
+                    <p class="card-desc">Um doce cremoso e saboroso.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Doce de leite"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Brigadeiro">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.51 (2).jpeg" alt="Brigadeiro">
-                        <h3>Brigadeiro</h3>
-                        <p>Feito com o melhor chocolate.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Brigadeiro">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Morango com nutella">
+                    <h3>Brigadeiro</h3>
+                    <p class="card-desc">Feito com o melhor chocolate.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Brigadeiro"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Morango com nutella">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.51.jpeg" alt="Morango com nutella">
-                        <h3>Morango com nutella</h3>
-                        <p>Delicioso doce com morangos e nutella.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Morango com nutella">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Ninho com nutella">
+                    <h3>Morango com nutella</h3>
+                    <p class="card-desc">Delicioso doce com morangos e nutella.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Morango com nutella"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Ninho com nutella">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.52 (1).jpeg" alt="Ninho com nutella">
-                        <h3>Ninho com nutella</h3>
-                        <p>Delicioso doce com ninho e nutella.</p>
-                        <p class="price">1 R$6,00 e 3 R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Ninho com nutella">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Brulee">
+                    <h3>Ninho com nutella</h3>
+                    <p class="card-desc">Delicioso doce com ninho e nutella.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Ninho com nutella"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Brulee">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.52.jpeg" alt="Brulee">
-                        <h3>Brulee</h3>
-                        <p>Delicioso doce com sabor suave.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Brulee">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Berries">
+                    <h3>Brulee</h3>
+                    <p class="card-desc">Delicioso doce com sabor suave.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Brulee"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Berries">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.53 (1).jpeg" alt="Berries">
-                        <h3>Berries</h3>
-                        <p>Delicioso doce com frutas vermelhas.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Berries">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Romeu e julieta">
+                    <h3>Berries</h3>
+                    <p class="card-desc">Delicioso doce com frutas vermelhas.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Berries"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Romeu e julieta">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.53.jpeg" alt="Romeu e julieta">
-                        <h3>Romeu e Julieta</h3>
-                        <p>Delicioso doce com sabor romântico.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Romeu e julieta">Encomendar</button>
                     </div>
-                    <div class="card" data-name="Chocolate amargo 70%">
+                    <h3>Romeu e Julieta</h3>
+                    <p class="card-desc">Delicioso doce com sabor romântico.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Romeu e julieta"><span class="wp-icon"></span> ENCOMENDAR</button>
+                </div>
+                <div class="card" data-name="Chocolate amargo 70%">
+                    <div class="card-img-wrapper">
                         <img src="./img/WhatsApp Image 2026-04-30 at 09.42.54.jpeg" alt="Chocolate amargo 70%">
-                        <h3>Chocolate amargo 70%</h3>
-                        <p>Delicioso doce com chocolate amargo e cobertura.</p>
-                        <p class="price">1 Unidade R$6,00 e 3 Unidade R$15,00</p>
-                        <button class="btn-whatsapp" data-product="Chocolate amargo 70%">Encomendar</button>
                     </div>
+                    <h3>Chocolate amargo 70%</h3>
+                    <p class="card-desc">Delicioso doce com chocolate amargo e cobertura.</p>
+                    <p class="price">1 Un. R$6,00 e 3 R$15,00</p>
+                    <button class="btn-whatsapp" data-product="Chocolate amargo 70%"><span class="wp-icon"></span> ENCOMENDAR</button>
                 </div>
             </div>
         </section>
 
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>🍫 A Felicidade é Brigadeiro — Nossa História
-A A Felicidade é Brigadeiro nasceu em 2007, a partir de uma decisão corajosa: deixar um emprego formal em busca do sonho do empreendedorismo, um caminho que muitos brasileiros desejam trilhar.
-
-Com uma forte paixão pela culinária, já sabíamos que nosso negócio seria no ramo alimentício. Desde o início, tínhamos uma ideia clara: não queríamos trabalhar com produção na rua, mas sim oferecer um produto pronto, prático e de alta qualidade, ideal para consumo imediato.
-
-Foi assim que surgiu o brigadeiro como nosso produto principal. Mesmo sendo um mercado já consolidado, decidimos seguir por um caminho diferente: apostar em sabores criativos e ingredientes de alto padrão. Trabalhamos com marcas reconhecidas e chocolates importados, sempre priorizando a qualidade acima de tudo.
-
-Nosso primeiro ano foi no ABC Paulista, onde conseguimos entender melhor o nosso público. Identificamos que mais de 70% dos nossos clientes eram mulheres, com maior fluxo no horário comercial, especialmente no período do almoço, atendendo trabalhadores da região.
-
-Com esse aprendizado, no ano seguinte, tomamos uma decisão estratégica: migrar para um dos maiores polos corporativos do país — a Avenida Paulista, em São Paulo. Foi ali que consolidamos nossa presença e expandimos nosso alcance.
-
-Hoje, seguimos na região, oferecendo não apenas a venda diária de brigadeiros, mas também atendendo eventos corporativos. Construímos uma base sólida de clientes fiéis, fortalecida por um programa de fidelidade que incentiva o retorno.
-
-Ainda assim, o que mais ouvimos dos nossos clientes é simples e poderoso: eles voltam pela qualidade dos produtos e pelo atendimento.</p>
-        </section>
-</main>
-<footer>
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco através do WhatsApp ou Instagram para mais informações, dúvidas ou para fazer seu pedido!</p>
-
-                <ul>
-                    <li><strong>Telefone:</strong> (11) 98705-3193</li>
-                    <li><strong>Endereço:</strong> Avenida Paulista, 1100, São Paulo, Brazil </li>
-                    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/bikefelicidadeebrigadeiro" target="_blank">@bikefelicidadeebrigadeiro
-                </a></li>
-        </section>
-
-        <section id="meios de pagamento">
-         <div class="footer-section">
-                <h2>Meios de Pagamento</h2>
-                <div class="payment-icons">
-                    <img src="./img/pix.png" alt="Pix">
-                    <img src="./img/dinheiro.jpg" alt="Dinheiro">
-                    <img src="./img/cartoes_de_credito.jpg" alt="Cartão de crédito/débito">
+        <section id="sobre" class="about-section">
+            <h2 class="about-title"><span class="heart-icon">♥</span> Sobre Nós</h2>
+            <div class="about-container">
+                <div class="about-badge">
+                    <img src="./img/logo.png" alt="Selo Felicidade é Brigadeiro" class="about-logo-img">
+                </div>
+                <div class="about-text">
+                    <p>A <strong>Felicidade é Brigadeiro</strong> nasceu em 2007, a partir de uma decisão corajosa: deixar um emprego formal em busca do sonho do empreendedorismo, um caminho que muitos brasileiros desejam trilhar.</p>
+                    <p>Com uma forte paixão pela culinária, já sabíamos que nosso negócio seria no ramo alimentício. Desde o início, tínhamos uma ideia clara: não queríamos trabalhar com produção na rua, mas sim oferecer um produto pronto, prático e de alta qualidade, ideal para consumo imediato.</p>
+                    <p>Foi assim que surgiu o brigadeiro como nosso produto principal. Mesmo sendo um mercado já consolidado, decidimos seguir por um caminho diferente: apostar em sabores criativos e ingredientes de alto padrão. Trabalhamos com marcas reconhecidas e chocolates importados, sempre priorizando a qualidade acima de tudo.</p>
+                    <p>Hoje, seguimos na região, oferecendo não apenas a venda diária de brigadeiros, mas também atendendo eventos corporativos. Construímos uma base sólida de clientes fiéis, fortalecida por um programa de fidelidade que incentiva o retorno.</p>
+                    <p class="highlight-quote">Ainda assim, o que mais ouvimos dos nossos clientes é simples e poderoso: eles voltam pela qualidade dos produtos e pelo atendimento. ♥</p>
                 </div>
             </div>
         </section>
-        <p>&copy; 2026 Felicidade é brigadeiro. Todos os direitos reservados.</p>
+    </main>
 
-</footer>
+    <footer>
+        <div class="footer-top">
+            <div id="contato" class="footer-column column-contacts">
+                <h3><span class="heart-icon">♥</span> Contato</h3>
+                <p>Entre em contato conosco através do WhatsApp ou Instagram para mais informações, dúvidas ou para fazer seu pedido!</p>
+                <ul class="contact-list">
+                    <li><span class="footer-icon">📞</span> (11) 98705-3193</li>
+                    <li><span class="footer-icon">📍</span> Avenida Paulista, 1100, São Paulo, SP</li>
+                    <li><span class="footer-icon">📸</span> <a href="https://www.instagram.com/bikefelicidadeebrigadeiro" target="_blank">@bikefelicidadeebrigadeiro</a></li>
+                </ul>
+            </div>
 
-<script>
-    
-    function smoothScrollTo(target, duration = 1000) {
-        const targetElement = document.querySelector(target);
-        if (!targetElement) return;
+            <div class="footer-column column-payments">
+                <h3><span class="heart-icon">♥</span> Meios de Pagamento</h3>
+                <div class="payment-grid">
+                    <div class="pay-item"><img src="./img/pix.png" alt="Pix"><span>PIX</span></div>
+                    <div class="pay-item"><img src="./img/dinheiro.jpg" alt="Dinheiro"><span>DINHEIRO</span></div>
+                    <div class="pay-item"><img src="./img/cartoes_de_credito.jpg" alt="Cartões"><span>CARTÕES</span></div>
+                </div>
+            </div>
 
-        const targetPosition = targetElement.offsetTop - 90; 
-        const startPosition = window.pageYOffset;
-        const distance = targetPosition - startPosition;
-        let startTime = null;
-
-        function animation(currentTime) {
-            if (startTime === null) startTime = currentTime;
-            const timeElapsed = currentTime - startTime;
-            const run = easeInOutQuad(timeElapsed, startPosition, distance, duration);
-            window.scrollTo(0, run);
-            if (timeElapsed < duration) requestAnimationFrame(animation);
-        }
-
-        function easeInOutQuad(t, b, c, d) {
-            t /= d / 2;
-            if (t < 1) return c / 2 * t * t + b;
-            t--;
-            return -c / 2 * (t * (t - 2) - 1) + b;
-        }
-
-        requestAnimationFrame(animation);
-    }
-
-    
-    document.querySelectorAll('.nav-links a').forEach(link => {
-        link.addEventListener('click', function(e) {
-            e.preventDefault();
-            const target = this.getAttribute('href');
-            smoothScrollTo(target, 1500); 
-        });
-    });
-    </script>
+            <div class="footer-column column-brand">
+                <h2 class="footer-logo-text">Felicidade é<br><span class="footer-logo-sub">Brigadeiro</span></h2>
+                <p class="brand-slogan">Mais que doces, criamos memórias.</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p><span class="heart-icon">♥</span> &copy; 2026 Felicidade é brigadeiro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
     <script>
-    
-    const WHATSAPP_NUMBER = "5511987053193"; 
-    
-    document.querySelectorAll('.btn-whatsapp').forEach(button => {
-        button.addEventListener('click', function() {
-            const productName = this.getAttribute('data-product');
-            const message = `Olá! Gostaria de encomendar: ${productName}`;
-            const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
-            window.open(whatsappUrl, '_blank');
+        function slowScrollTo(targetPosition, duration = 1200) {
+            const startPosition = window.scrollY;
+            const distance = targetPosition - startPosition;
+            let startTime = null;
+
+            
+            function easeOutCubic(t) {
+                return 1 - Math.pow(1 - t, 3);
+            }
+
+            function animation(currentTime) {
+                if (startTime === null) startTime = currentTime;
+                const timeElapsed = currentTime - startTime;
+                
+                // Calcula o progresso da animação (entre 0 e 1)
+                const progress = Math.min(timeElapsed / duration, 1);
+                
+                // Aplica a curva de suavização na posição atual
+                const run = startPosition + distance * easeOutCubic(progress);
+                
+                window.scrollTo(0, run);
+
+                if (timeElapsed < duration) {
+                    requestAnimationFrame(animation);
+                }
+            }
+
+            requestAnimationFrame(animation);
+        }
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if (targetElement) {
+                    const menuHeight = 90; 
+                    const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
+                    const offsetPosition = elementPosition - menuHeight;
+
+                    // Chama a nossa função customizada (duração de 1.2 segundos para suavizar)
+                    slowScrollTo(offsetPosition, 1200);
+                }
+            });
         });
-    });
-</script>
+        const logoLink = document.querySelector('.navbar-logo');
+        if (logoLink) {
+            logoLink.addEventListener('click', function(e) {
+                e.preventDefault();
+                // Rola para o topo absoluto (posição 0) de forma suave
+                slowScrollTo(0, 1200);
+            });
+        }
+
+        // ==========================================================================
+        // INTEGRAÇÃO DE ENVIOS PARA O WHATSAPP
+        // ==========================================================================
+        const WHATSAPP_NUMBER = "5511987053193"; 
+        
+        document.querySelectorAll('.btn-whatsapp, .btn-hero-order, .btn-top-order').forEach(button => {
+            button.addEventListener('click', function(e) {
+                if (this.tagName === 'A') return; 
+                
+                const productName = this.getAttribute('data-product') || "Doces";
+                const message = `Olá! Gostaria de encomendar: ${productName}`;
+                const whatsappUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+                
+                window.open(whatsappUrl, '_blank');
+            });
+        });
+    </script>
+
 
 </body>
 </html>
